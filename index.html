@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title>nwe project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+
+html{
+    overflow-x: hidden;
+}
+
+
+   
+.ak{
+
+    background-color: rgb(105, 95, 241);
+    width:100%;
+    height: 10%; 
+    overflow: hidden;
+   font-size: 17px;
+  
+      
+
+}
+.now{
+    position:sticky;
+   top:0px; 
+}
+ul{
+    margin-right: 18%;
+    text-decoration: none;
+    
+    
+}
+a{
+    text-decoration: none;
+    font-size: medium;
+    color: aliceblue;
+    margin-left: 4%;
+    }
+
+
+button{
+    background-color:rgb(231, 225, 218);
+    border-width:5px;
+    
+}
+.form{
+    border-style: double; 
+    border-color: black;
+    background-color: rgb(5, 13, 73);
+    font-style: italic;
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    position: absolute;
+    top:80%;
+    size-adjust: 44px;
+    
+}
+
+
+.a{
+    background-color: rgb(177, 145, 235);
+    width: 80%;
+    margin-left: 10%;
+}
+.back{
+    position: relative;
+    text-align: center;
+    color: beige;
+} 
+.center{
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    font-size: 200%;
+}
+.cantant{
+    position: absolute;
+    top: 34%;
+    
+}
+.button{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+
+}
+.blogs{
+    width: 76%;
+    padding: 2%;
+    background-color: rgb(34, 148, 214);
+    margin-left:10% ;
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(224, 231, 238);
+  padding: 5%;
+  width:100%;
+  overflow: hidden;
+ 
+
+}
+.flex-container > div {
+  background-color: #f9feff;
+  margin: 10px;
+  padding: 50px;
+  font-size: 15px;
+  overflow: hidden;
+}
+.room{
+    background: linear-gradient(rgb(128, 128, 245),rgb(147, 241, 147));
+}
+.logo{
+    background:linear-gradient(rgb(87, 59, 214),rgb(97, 255, 221))
+            
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 40px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+
+
+@media screen and (max-width:400px){
+            body{
+                background:linear-gradient(red,blue)
+            }
+        }
+
+    </style>
+</head>
+<body>
+ <div class="logo">
+         <img  src="https://st2.depositphotos.com/4035913/6124/i/450/depositphotos_61243733-stock-photo-business-company-logo.jpg" alt=trill width="150px" height="150px">
+         <span style="margin-left: 50%;">&#9742;</span><b>CALL:91+ 8248353301</b>
+         <input style="font-family: 'Courier New', Courier, monospace;" type="search" placeholder="search"><button><span>&#128269;</span></button>
+        
+</div> 
+    <div class="ak">
+       
+        <div class="now">
+            <ul>
+                <h3 style="color: aliceblue;">Wellcom To your booking</h3>
+                    <a href="#" >Hotel</a>
+                    <a href="#">Flight</a>
+                    <a href="#">Vacation</a>
+                    <a href="#">Hot delay</a> 
+                   <a href="#">Tarvel gudias</a>
+                   <a href="#">Blogs</a>  
+                   <button style="margin-left: 25%;">Singup</button>   
+                   <button style="margin-left: 2%;">MyAccount</button>
+            </ul>
+            
+        </div>
+    </div>
+       
+        <div class="back">
+            <img style="margin-right: 100%;" src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?cs=srgb&dl=pexels-pixabay-38238.jpg&fm=jpg"alt=trill width="100%" height="600px">
+            <div class="center">WELLCOME TO YOUR VACATION</div>
+            <div class="cantant">Starting your morning on a positive note can make your whole day joyful and happy. These inspirational enjoy your day messages and wishes is a great idea to start your day on a happy note and share the same vibes with friends and family</div>
+           <div class="button"> <button style="margin-left: 45%;border-bottom: 3%;">BOOKNOW</button></div>
+            
+       
+    
+    <form class="form">
+        
+        <h3>BookingDetail</h3>
+        <label for="city">What?</label>
+        <select>
+            <option>none</option>
+            <option>Sholinghur</option>
+            <option>Chennai</option>
+            <option>Vellour</option>
+        </select>
+        <label for="city">Where?</label>
+        <select>
+            <option>none</option>
+            <option>Sholinghur</option>
+            <option>Chennai</option>
+            <option>Vellour</option>
+        </select>
+        <label for="date">When?</label>
+        <input type="date" id="date" required>
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+        <label for="adults">Adults</label>
+        <input type="number" id="adults" required>
+        <button>Search</button>  
+
+    </form><hr>
+</div>
+<div class="room"> 
+    <div>
+        <h2>Popular Hotel</h2>
+    </div>
+<div class="row">
+    <div class="column">
+        
+      <img src="https://www.inviatotravel.com/wp-content/uploads/2012/02/background-home-hidden2.jpg" alt="Snow" style="width:100%">
+      <h4>Hotel martin</h4>
+
+      <label for="Hotel">Mehour Austril</label>
+      <button ><b>Rs:44874</b></button>
+
+      
+    </div>
+    <div class="column">
+      <img src="https://media.istockphoto.com/id/177112902/photo/luxury-rococo-bedroom.jpg?s=612x612&w=0&k=20&c=P0GqOTbIm3Le_2ZnZ21W_PgEfBclI0DT11DTDTIzA0c=" alt="Forest" style="width:100%">
+      <h4>Hotel martin</h4>
+      <label for="Hotel">Mehour Austril</label>
+      <button ><b>Rs:44874</b></button>
+      
+    </div>
+    <div class="column">
+      <img src="https://images.unsplash.com/photo-1610379230744-2260350e2f17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm95YWwlMjByb29tfGVufDB8fDB8fHww&w=1000&q=80" alt="Mountains" style="width:100%">
+      <h4>Hotel taj</h4>
+      <label for="Hotel">Mehour Austril</label>
+      <button ><b>Rs:44874</b></button>
+      
+    </div>
+  </div>
+   
+<div class="row">
+    <div class="column">
+      <img src="https://www.inviatotravel.com/wp-content/uploads/2012/02/background-home-hidden2.jpg" alt="Snow" style="width:100%">
+      <h4>Hotel martin</h4>
+      <label for="Hotel">Mehour Austril</label>
+      <button ><b>Rs:44874</b></button>
+      
+    </div>
+    <div class="column">
+      <img src="https://media.istockphoto.com/id/177112902/photo/luxury-rococo-bedroom.jpg?s=612x612&w=0&k=20&c=P0GqOTbIm3Le_2ZnZ21W_PgEfBclI0DT11DTDTIzA0c=" alt="Forest" style="width:100%">
+      <h4>Hotel martin</h4>
+      <label for="Hotel">Mehour Austril</label>
+      <button ><b>Rs:44874</b></button>
+      
+    </div>
+    <div class="column">
+      <img src="https://images.unsplash.com/photo-1610379230744-2260350e2f17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm95YWwlMjByb29tfGVufDB8fDB8fHww&w=1000&q=80" alt="Mountains" style="width:100%">
+      <h4>Hotel martin</h4>
+      <label for="Hotel">Mehour Austril</label>
+      <button ><b>Rs:44874</b></button>
+      
+    </div>
+  </div>
+
+    <div class="blogs">
+        <a href="#">Latest Blogs</a>
+    </div><br><hr>
+</div>
+       
+<div class="flex-container">
+    <div>
+        <h4>Company</h4>
+        <li>About the Company</li>
+        <li>Trem And Condition</li>
+        <li>Privacy Police</li>
+        <li>Career</li>
+        <li>Addres</li>
+    </div>
+    <div>
+        <h4>Costmer Souport</h4>
+        <li>Contact</li>
+        <li>FAQ</li>
+        </div>
+    <div>
+        <h4>Follws us</h4>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        
+    </div> 
+    <div>
+        <h4>Don'ts miss our delas and offers</h4>
+        <input type="email" placeholder="Enter you emali id"><button style="background-color:#3B5998;">SUBSCRIBE</button>
+    </div>  
+  </div>
+
+ </div>
+</div>
+  
+
+</body>
+</html>
